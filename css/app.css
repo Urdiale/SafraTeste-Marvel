@@ -1,0 +1,235 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: #546e7a;
+  font-family: "Open Sans", sans-serif;
+}
+.body-site{
+  position: relative;
+  top: 20%;
+}
+
+/*+++NAVBAR*/
+.primary_nav_wrap {
+  margin: 0;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  position: absolute;
+  width: 100%;
+}
+
+.header-menu {
+  text-align: end;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-marvel {
+  text-align: left;
+  margin-left: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-content {
+  margin-left: 0;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.img-comics {
+  width: 60%;
+}
+.content-home {
+  z-index: -1;
+  background: #d1d1d1;
+  margin-left: 22%;
+  margin-right: -15px;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  margin-top: -25%;
+  padding-left: 40%;
+  text-align: justify;
+  left: -10%;
+}
+.subtitle-content-home {
+  margin-bottom: 3%;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.icon-book {
+  padding-right: 4px;
+}
+.table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th{background-color: #374A53}
+ 
+.table{
+  background-color: #4a6572;
+}
+.btn-info{
+  color: #3a4e57;
+  text-decoration: bold;
+  border: none !important;
+ background: linear-gradient(248.26deg, rgba(55, 74, 83, 0.2) 26%, rgba(0, 0, 0, 0) 64.26%), #D1D1D1;;
+}
+.wiki-publi {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282828;
+  color: #d1d1d1;
+  position: relative;
+}
+.square-publi {
+  width: 100%;
+  margin: 0;
+  height: 70%;
+  border-radius: 15px 0 0 0 ;
+  position: absolute;
+  text-align: center;
+}
+.publi-wiki-table {
+  padding: 0;
+}
+
+.subtitle-wiki-publi{
+  margin-top: 80px;
+  line-height: 14px;
+}
+
+.img-wiki-publi{
+  width: 20%;
+  margin: 60px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+.chars-table{
+  margin: 0 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.panel-char{
+  margin:15px;
+  position: absolute;
+  background-color: #3E515A;
+  width: 94%;
+}
+
+.panel-char2{
+  background-color: rgb(209, 209, 209);
+  width: 95%;
+  margin:  3% 0;
+  padding: 20px;
+}
+
+.char-subtitle{
+  padding-left: 0;
+}
+
+.char-comics-content{
+  margin-left: 25px;
+  margin-right: 10%;
+
+}
+
+.char-comics-list{
+  background-color: #fff;
+  border-bottom: 1px solid rgb(55, 74, 83, 0.3);
+}
+
+.icon-circle{
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  font-size:small;
+}
+
+.links-button-header{
+  color: rgba(255, 255, 255) !important;
+}
+
+.links-info-button{
+  color: #3a4e57 !important;
+}
+.icon-arrow-left{
+  margin-right: 5px;
+}
+
+.photo-char{
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  border: 3px solid #3a4e57;
+  margin: 30px;
+}
+
+.resume-char{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.commics-content{
+  text-align: justify;
+  margin: 30px;
+}
+
+.list-group{
+  width: 100%;
+}
+
+.list-group-item{
+  background-color: rgb(0, 0, 0, 0.0);
+  border-color: rgb(0, 0, 0, 0.0);
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
