@@ -3,12 +3,12 @@ angular.module("marvel").controller("marvelCtrl", function ($scope, $http) {
     $scope.loading = true;
     $scope.getCharacters = () => {
         var params = {
-            ts: '1644257070',
+            ts:  Date.now(),
             apikey: '5a237863b3cc2061003cbbc4fe20dc06',
-            hash: 'ad8bffd5228fb73269bdc8f54daf2af6'
         };
+        var hash= CryptoJS.MD5(`${params.ts}fbf255068eccea6d0ef951b9f25626b57ab2fe72${params.apikey}`).toString()
         var baseUrl = "http://gateway.marvel.com/v1/public/characters?";
-        $http.get(`${baseUrl}ts=${params.ts}&apikey=${params.apikey}&hash=${params.hash}`
+        $http.get(`${baseUrl}ts=${params.ts}&apikey=${params.apikey}&hash=${hash}`
         ).then((response) => {
             console.log(response.data);
             $scope.loading = false;
